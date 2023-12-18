@@ -5,8 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
-public class Main {
-    private static final int capacity = 10_000_000;
+public class MainList {
+    private static final int capacity = 1_000_0000;
     public static Random random = new Random();
     private static List<Integer> list = new LinkedList<>();
     //private static List<Integer> list = new ArrayList<>(capacity);
@@ -28,10 +28,12 @@ public class Main {
 //            }
 
         }
+        System.out.println("Add...");
 
         for (int i = 0; i < capacity; i++) {
             list.add(1, 500);
         }
+        System.out.println("Insert...");
 
     }
 }

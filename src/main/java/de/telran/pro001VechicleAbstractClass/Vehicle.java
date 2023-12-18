@@ -1,4 +1,4 @@
-package de.telran.pro001;
+package de.telran.pro001VechicleAbstractClass;
 
 public abstract class Vehicle {
     private byte wheelNumber;

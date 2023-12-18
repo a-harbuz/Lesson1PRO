@@ -1,2 +1,7 @@
-package de.telran.practice002;public class Scratch {
+package de.telran.practice002;
+
+interface Scratch {
+    void scratched();
+    //царапаться
+    void igratsya();
 }

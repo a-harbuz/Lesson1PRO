@@ -1,4 +1,4 @@
-package de.telran.pro001;
+package de.telran.pro001VechicleAbstractClass;
 
 abstract public class Car extends Vehicle implements benzinEngine {
     //реализация. Определяем,

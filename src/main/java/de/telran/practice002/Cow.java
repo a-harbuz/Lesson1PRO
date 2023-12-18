@@ -1,2 +1,4 @@
-package de.telran.practice002;public class Cow {
+package de.telran.practice002;
+
+public class Cow {
 }

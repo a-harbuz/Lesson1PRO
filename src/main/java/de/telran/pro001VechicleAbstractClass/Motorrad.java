@@ -1,4 +1,4 @@
-package de.telran.pro001;
+package de.telran.pro001VechicleAbstractClass;
 
 public class Motorrad extends Vehicle implements benzinEngine{
     private String sedlo = "no sedlo";

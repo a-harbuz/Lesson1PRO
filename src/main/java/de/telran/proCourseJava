@@ -1,0 +1,64 @@
+    <h2><b>Java Professional Program</b></h2>
+
+    1. <b>OOP (Object-Oriented Programming)</b>
+
+    1. Classes, objects, fields and methods of an object.
+       Fields and methods of a Class
+    2. Encapsulation. Modifier 'static' and 'final.’
+    3. Inheritance. Abstract classes.
+    4. Polymorphism. Reference Data Types in Java
+    5. Enums in Java. Practice
+    2. JCF. Java Collections Framework
+    6. Working with Arrays in Java. Binary search. Sort.
+    7. Data structures definition. Interfaces. Data structure 'List'. ArraysList
+    implementation, beginning.
+    8. Iterators and Iterable. Foreach syntax.
+    9. Lists implementations. LinkedList.
+    10. Java Set implementation. HashSet. Exercises.
+    11. Comparing objects in Java. Comparator, Comparable. Method sort.
+    12. Data structures 'Queue', 'Stack'. Custom ArrayDeque implementation.
+    13. Data structure 'Map'. Object.hashCode, HashMap implementation.
+    14. Trees, Binary Trees, Tree Map.
+    15. Graphs. Practice.
+    test
+
+    <b>3. Lambdas & Stream API</b>
+
+    1. Lambdas, Functional Interfaces, Method references.
+    2. Practice. Functions and Supplier interfaces.
+    3. Stream API: Stream, primitive streams. Intermediate and Terminal operations.
+    4. Java Streams. Practice. Flat map. Collectors.
+    4. Input and Output in Java.
+    5. Introduction to Input and Output in Java
+    6. Try-catch, Reading/Writing streams of bytes, streams of strings.
+    5. General and repetition
+    1. Java Regular expressions. Basics.
+    2. Generics, PECS.
+    3. Exceptions.
+    4. Unit testing. JUnit. Mockito tests.
+    5. LocalDate, LocalDateTime, ZonedDateTime, exercises.
+    test
+
+    <b>6. Multithreading</b>
+
+    1. General introduction to Java multithreading, main problems.
+    2. Thread, Runnable, Daemon threads, Interrupted Exception
+    3. Synchronization. Mutex, Monitor. Atomic types.
+    4. Object.wait, Object.join. One-element blocking queue (Messenger).
+    5. JavaUtilConcurrent. Concurrent Collections.
+    6. Threads Executors.
+
+    <b>7. Spring & Spring Boot</b>
+
+    7. Apache Maven, сборка проектов.
+    8. Принципы программирования: DRY, YAGNI, KISS, SOLID.
+    9. Reflections. Annotations..
+    10. Spring Framework: Introduction, Context and Beans
+    11. Spring Framework: Beans configuration
+    12. Spring Boot: Onion (Hexagonal) architecture
+    13. Spring Boot: Implementing Rest Controllers
+    14. Java JDBC API, работа с базами данных
+    15. Spring Boot: JPA and databases
+    16. Spring Boot: validation and error handling
+    17. Spring Boot: logging and AOP basics
+    18. Spring Boot: scheduled jobs project
