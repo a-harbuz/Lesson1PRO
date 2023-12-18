@@ -223,6 +223,7 @@ public class Main {
             for (int j = 0; j < list.size(); j++) {
                 if (i!=j){
                     tmpList.add(list.get(i)+ " " +list.get(j));
+
                 }
             }
 
