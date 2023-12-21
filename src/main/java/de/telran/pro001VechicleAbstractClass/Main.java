@@ -8,13 +8,13 @@ public class Main {
         // поэтому здесь приходится переопределять все остальные методы
         Car mikh1 = new Car() {
             @Override
-            public void motorStart() {
+            public void motorStart() { // Не переопредилили эти методы in Class
                 // in interface
                 System.out.println("ZavodimMotor.");
             }
 
             @Override
-            public void gaseOut() {
+            public void gaseOut() { // Не переопредилили эти методы in Class
                 // in abstract class
                 System.out.println("Puk.");
             }

@@ -175,7 +175,6 @@ public class Main {
                     }
                 }
             }
-
             //Элемент уникальный
             if (uniq) tmpList.add(list.get(i));
         }
@@ -214,6 +213,26 @@ public class Main {
     }
 
     //Перебор List<Integer> и нахождение всех подмножеств этого списка.
+//    public static List<List<Integer>> findMenge (List<Integer> list) {
+//        List<List<Integer>> sets = new ArrayList<>();
+//        doGenerate(0, list, new LinkedList<>(), sets);
+//
+//        for (int i = 0; i < list.size(); i++) {
+//            List<Integer> subset;
+//            for (int j = i; j < list.size(); j++) {
+//                if (i!=j){
+//                    tmpList.add(list.get(i)+ " " +list.get(j));
+//                }
+//            }
+//
+//        }
+//        return tmpList;
+//
+//    }
+
+//    public static List<Integer> doGenerate(int idx, List<Integer> sourceList, List<List<Integer>>, sets){
+//
+//    }
 
 
     //Перебор List<String> и создание всех возможных комбинаций строк без повторений.
@@ -223,7 +242,6 @@ public class Main {
             for (int j = 0; j < list.size(); j++) {
                 if (i!=j){
                     tmpList.add(list.get(i)+ " " +list.get(j));
-
                 }
             }
 
