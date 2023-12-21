@@ -1,4 +1,4 @@
-package de.telran.practice004;
+package de.telran.practice004todolist;
 
 public class Task {
     private String name;

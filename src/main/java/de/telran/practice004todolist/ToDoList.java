@@ -1,4 +1,4 @@
-package de.telran.practice004;
+package de.telran.practice004todolist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,7 +29,7 @@ public class ToDoList {
     public void taskCompletedDelete(){
         for (int i = 0; i < tasks.size(); i++) {
             if (tasks.get(i).getIsMade()){
-                tasks.remove(i);
+                tasks.remove(i); // может вызвать Exception
             }
         }
 

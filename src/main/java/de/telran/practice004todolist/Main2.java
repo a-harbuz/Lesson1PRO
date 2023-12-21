@@ -1,7 +1,6 @@
-package de.telran.practice004;
+package de.telran.practice004todolist;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main2 {
