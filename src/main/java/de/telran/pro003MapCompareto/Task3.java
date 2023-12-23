@@ -1,4 +1,4 @@
-package de.telran.pro003compareto;
+package de.telran.pro003MapCompareto;
 
 import java.util.*;
 

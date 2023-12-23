@@ -1,4 +1,4 @@
-package de.telran.pro003compareto;
+package de.telran.pro003MapCompareto;
 
 import com.github.javafaker.Faker;
 
@@ -14,8 +14,16 @@ public class Task5 {
     public static void main(String[] args) {
         Map<String, User> hashmap1 = new HashMap<>();
         hashmap1.put("Вася", new User("Вася",2));
-        Map<String, User> hashmap2 = new HashMap<>();
+        hashmap1.put("Петя", new User("Петя",22));
+        hashmap1.put("Гоша", new User("Гоша",12));
 
+        Map<String, User> hashmap2 = new HashMap<>();
+        hashmap2.put("Егор", new User("Егор",14));
+        hashmap2.put("Максим", new User("Максим",13));
+        hashmap2.put("Гоша", new User("Гоша",12));
+
+        hashmap1.putAll(hashmap2); //дубликаты удаляет сам
+        System.out.println(hashmap1);
     }
 
 }

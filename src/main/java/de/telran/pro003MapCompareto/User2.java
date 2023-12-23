@@ -1,6 +1,4 @@
-package de.telran.pro003compareto;
-
-import java.util.Comparator;
+package de.telran.pro003MapCompareto;
 
 public class User2 {
     // interface Comparable & method compareTo
@@ -8,7 +6,7 @@ public class User2 {
     private Integer age;
 
     public User2(String name, Integer age) {
-        name = name;
+        this.name = name;
         this.age = age;
     }
 

@@ -1,4 +1,4 @@
-package de.telran.pro001Compare;
+package de.telran.pro001ListCompare;
 
 //public class Woman implements Comparable<Woman>{
 public class Woman{

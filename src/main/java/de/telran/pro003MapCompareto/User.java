@@ -1,19 +1,20 @@
-package de.telran.pro003compareto;
-
-import java.util.Comparator;
+package de.telran.pro003MapCompareto;
 
 public class User implements Comparable<User> { //добавили возможность сортировки
     // interface Comparable & method compareTo
-    private String Name;
+    private String name;
     private Integer age;
 
-    public User(String name, Integer age) {
-        Name = name;
+    public User(String nam, Integer age) {
+        this.name = nam;
         this.age = age;
     }
 
+    public static void sort(Task4.NameComparator nameComparator) {
+    }
+
     public String getName() {
-        return Name;
+        return name;
     }
 
     public Integer getAge() {
@@ -21,7 +22,7 @@ public class User implements Comparable<User> { //добавили возмож�
     }
 
     public void setName(String name) {
-        Name = name;
+        name = name;
     }
 
     public void setAge(Integer age) {

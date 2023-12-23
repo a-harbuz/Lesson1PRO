@@ -1,8 +1,6 @@
-package de.telran.pro003compareto;
+package de.telran.pro003MapCompareto;
 
 //import java.util.Map;
-import javax.xml.namespace.QName;
-import java.text.spi.CollatorProvider;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
@@ -46,47 +44,7 @@ public static void newMapFilter (Map<Integer, String> map){
     System.out.println(treemap);
 }
 
-//3**Создайте класс User с полями name и age, реализующий Comparable
-//    для сортировки по возрасту. Используйте TreeMap<User, String>
-//    для хранения информации о пользователях и переберите его, чтобы напечатать имена.
 
-public class User implements Comparable<User> {
-      String Name;
-      Integer age;
-
-    public User(String name, Integer age) {
-        Name = name;
-        this.age = age;
-    }
-
-    public String getName() {
-        return Name;
-    }
-
-    public Integer getAge() {
-        return age;
-    }
-
-    public void setName(String name) {
-        Name = name;
-    }
-
-    public void setAge(Integer age) {
-        this.age = age;
-    }
-
-    @Override
-    public int compareTo(User o) {
-        return this.age-o.age;
-    }
-
-    public static void newMapFilter (Map<Integer, String> map) {
-//        User user1 = new User("Alice", 25);
-//        TreeMap<User,String> originaMap = new TreeMap<>();
-//        originaMap.put(new User("Alice",25),null);
-//        //for
-    }
-}
 
 
 
