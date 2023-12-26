@@ -4,11 +4,12 @@ package de.telran.pro003MapCompareto;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new TreeMap<>();
         map.put("Alice", 25);
-        map.put("Bob", 30);
+        map.put("Bobbbbbb", 30);
         map.put("Charlie", 35);
         //newMapNameAge(map);
+        System.out.println(map);
 
         Map<Integer, String> map1 = new HashMap<>();
         map1.put(25,"Alice");

@@ -28,7 +28,7 @@ public class Main {
             System.out.println(pairs.getKey() + " : " + pairs.getValue());
         }
         System.out.println("Пары в Мапе расположены хаотично!!!");
-
+        //System.out.println(map2.get("PQWER")); - взять значение по ключу
     }
 
     //HashMap<String, String>: Найдите количество пар ключ-значение, где длина ключа равна длине значения.

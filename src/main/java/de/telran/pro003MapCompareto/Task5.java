@@ -21,9 +21,16 @@ public class Task5 {
         hashmap2.put("Егор", new User("Егор",14));
         hashmap2.put("Максим", new User("Максим",13));
         hashmap2.put("Гоша", new User("Гоша",12));
+        hashmap2.put("Гоша", new User("Гоша",13));
+        hashmap2.put("Гоша", new User("Гоша",14));
+        //одинаковый ключ - перезаписывает значение, остается только последнее.
 
+        //putAll - склейка Мап-ов
         hashmap1.putAll(hashmap2); //дубликаты удаляет сам
         System.out.println(hashmap1);
+
+        System.out.println(hashmap2.get("Гоша"));
+        System.out.println(hashmap2.get("Гоша").getAge());
     }
 
 }

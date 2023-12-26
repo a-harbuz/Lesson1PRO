@@ -10,8 +10,6 @@ public class User implements Comparable<User> { //добавили возмож�
         this.age = age;
     }
 
-    public static void sort(Task4.NameComparator nameComparator) {
-    }
 
     public String getName() {
         return name;
@@ -38,7 +36,13 @@ public class User implements Comparable<User> { //добавили возмож�
     //        для сортировки по возрасту
 
 
-
+    @Override
+    public String toString() {
+        return "\nUser{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
 
 
