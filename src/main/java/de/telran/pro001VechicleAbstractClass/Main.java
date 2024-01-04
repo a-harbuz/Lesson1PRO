@@ -25,11 +25,14 @@ public class Main {
 
         //Покатаемся на мотоцикле
         Motorrad moto1 = new Motorrad();
+        moto1.setColor("BlackRama");
         moto1.setSedlo("Red-1");
         moto1.motorStart();
         moto1.gaseOut();
+        System.out.println(moto1.getColor());
         moto1.move(); // поехали
 
+        System.out.println();
         Motorrad moto2 = new Motorrad();
         moto2.setSedlo("Blue-2");
         moto2.motorStart();

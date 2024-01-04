@@ -11,5 +11,21 @@ public abstract class Vehicle {
 
     public abstract void gaseOut();
 
+    public void setWheelNumber(byte wheelNumber) {
+        this.wheelNumber = wheelNumber;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public byte getWheelNumber() {
+        return wheelNumber;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
 
 }

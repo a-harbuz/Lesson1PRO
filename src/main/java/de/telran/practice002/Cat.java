@@ -3,6 +3,7 @@ package de.telran.practice002;
 import lombok.ToString;
 
 public class Cat extends Animal implements Scratch{
+    private String color = "";
     @Override
     void voice(){ // aus Abstract Class
         System.out.println("Mjauuuu!");
@@ -25,5 +26,11 @@ public class Cat extends Animal implements Scratch{
     @Override
     public void igratsya() { // aus Interface
         System.out.println("Igrajus!");
+    }
+
+    public Cat() {
+    }
+    public Cat(String color) {
+        this.color = color;
     }
 }

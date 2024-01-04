@@ -11,7 +11,7 @@ abstract public class Animal {
 
     void viljatHvortom(){
         System.out.println("Mogu Vilyat Hvostom");
-    };
+    }
 
 
 }
