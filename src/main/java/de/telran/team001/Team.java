@@ -39,7 +39,7 @@ public class Team<T extends Participant> {
         participantList.add(participant);
     }
 
-    public void play(Team<T> secondTeam) {
+    public String play(Team<T> secondTeam) {
         String winner;
         int randomDigit = new Random().nextInt(2);
 
@@ -48,7 +48,8 @@ public class Team<T extends Participant> {
         } else {
             winner = secondTeam.teamName;
         }
-        System.out.println("WINNER: " + winner + "!!!!!");
+        //System.out.println("WINNER: " + winner + "!!!!!");
+        return winner;
     }
 
 

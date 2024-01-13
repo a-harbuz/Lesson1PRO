@@ -26,15 +26,15 @@ public class Generator {
             Team<Participant> team = new Team<>(FAKER.name().name(),group);
             for (int j = 0; j < numPerson; j++) {
                 if (group.equals(GroupTeams.PUPIL)) {
-                    Participant participant = new Pupil(FAKER.name().name(), RANDOM.nextInt(11));
+                    Pupil participant = new Pupil(FAKER.name().name(), RANDOM.nextInt(8)+10);
                     team.addNewParticipant(participant);
                 }
                 if (group.equals(GroupTeams.TEENAGER)) {
-                    Participant participant = new TeenAger(FAKER.name().name(), RANDOM.nextInt(11));
+                    TeenAger participant = new TeenAger(FAKER.name().name(), RANDOM.nextInt(8)+18);
                     team.addNewParticipant(participant);
                 }
                 if (group.equals(GroupTeams.ADULT)) {
-                    Participant participant = new Adult(FAKER.name().name(), RANDOM.nextInt(11));
+                    Adult participant = new Adult(FAKER.name().name(), RANDOM.nextInt(30)+26);
                     team.addNewParticipant(participant);
                 }
             }
