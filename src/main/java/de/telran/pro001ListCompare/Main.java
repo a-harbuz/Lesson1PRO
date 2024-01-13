@@ -21,11 +21,14 @@ public class Main {
 
         Arrays.sort(simpleArr); // Сортировка простого массива
         ArrayUtils.reverse(simpleArr);
-        //System.out.println(Arrays.toString(simpleArr));
+        System.out.println("Простой массив:");
+        System.out.println(simpleArr);
+        System.out.println(Arrays.toString(simpleArr));
 
         Collections.sort(arrInt); // Сортировка простого массива Integer
         arrInt.sort(Collections.reverseOrder());
-        //System.out.println(arrInt);
+        System.out.println("Лист Интеджеров:");
+        System.out.println(arrInt);
 //=========================================================================================
         ArrayList<Woman> woman = new ArrayList<Woman>(); //List - Collection - Array of Object
         woman.add(new Woman(18, "Blond"));
@@ -34,6 +37,8 @@ public class Main {
         woman.add(new Woman(14,"Black"));
         Woman w1 = new Woman(39,"Black");
         woman.add(w1);
+        //System.out.println("Лист Обьектов:");
+        //System.out.println(woman);
         //System.out.println(woman.contains(w1)); //поиск эл-та
 
         //==var1

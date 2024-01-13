@@ -17,3 +17,12 @@ public class Main {
         }
     }
 }
+
+//Либо заходите в Settings -> Appearance&Behavior->System Settings -> Project Opening.
+//Тут выбираете значение по умолчанию. Открывать в том же окне или в новом окне.
+
+//    Ну и извращения. Почитайте про instanceof pro-java.ru/java-dlya-nachinayushhix/… и в
+//    Job.doStuff() будет достаточно 1 аргумента. И вообще так не делается.
+//    Делается интерфейс IAnimal (Cat и Dog его имплементируют) и список создаётся именно
+//    с этим интерфейсом.
+// https://pro-java.ru/java-dlya-nachinayushhix/primenenie-operatora-instanceof-v-java/
