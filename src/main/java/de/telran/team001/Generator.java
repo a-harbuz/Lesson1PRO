@@ -16,7 +16,6 @@ public class Generator {
         listGroups.add(generateGroupTeams(GroupTeams.ADULT));
     }
 
-    //public static void generateGroupTeams(List<Team> list, GroupTeams group) {
     public static List<Team> generateGroupTeams(GroupTeams group) {
         List<Team> list = new ArrayList<>();
         int numTeams = 25;
