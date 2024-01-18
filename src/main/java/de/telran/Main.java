@@ -19,7 +19,8 @@ public class Main {
 }
 
 //Либо заходите в Settings -> Appearance&Behavior->System Settings -> Project Opening.
-//Тут выбираете значение по умолчанию. Открывать в том же окне или в новом окне.
+//Тут выбираете значение по умолчанию. Открывать в том же окне или в`
+//  v4 2новом окне.
 
 //    Ну и извращения. Почитайте про instanceof pro-java.ru/java-dlya-nachinayushhix/… и в
 //    Job.doStuff() будет достаточно 1 аргумента. И вообще так не делается.

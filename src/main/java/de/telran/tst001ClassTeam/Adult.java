@@ -1,4 +1,4 @@
-package de.telran.tst001;
+package de.telran.tst001ClassTeam;
 
 public class Adult {
     private String name;

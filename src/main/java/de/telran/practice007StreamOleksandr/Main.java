@@ -16,6 +16,11 @@ public class Main {
                 .collect(Collectors.joining(", "));
 
         System.out.println(result);
+
+//        list1 = list.stream()
+//                        .map(x->x+x)
+//                        .get();
+        System.out.println(list);
     }
 
 }

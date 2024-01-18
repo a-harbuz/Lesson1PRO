@@ -1,8 +1,7 @@
-package de.telran.tst001;
+package de.telran.tst001ClassTeam;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Random;
 
 public class TeamX<T> {

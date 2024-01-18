@@ -2,6 +2,8 @@ package de.telran.pro006Streams;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.IntStream;
@@ -39,6 +41,14 @@ public class Main {
                 .map(x -> x + 10)
                 .limit(3)
                 .forEach(System.out::println);
+
+        Map<String, Double> sourceMap = new HashMap<>();
+        sourceMap.put("One", 2.0);
+        sourceMap.put("Two", 3.0);
+        sourceMap.put("Three", 1.0);
+        sourceMap.put("Four", 4.0);
+        System.out.println(sourceMap);
+
     }
 
 

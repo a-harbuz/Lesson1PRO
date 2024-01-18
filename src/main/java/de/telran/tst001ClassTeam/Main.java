@@ -1,4 +1,4 @@
-package de.telran.tst001;
+package de.telran.tst001ClassTeam;
 
 import com.github.javafaker.Faker;
 
@@ -105,6 +105,23 @@ public class Main {
 //            System.out.println(sEn.getValue()+"-->"+sEn.getKey());
 //
 //        }
+
+
+        Map<Integer, String> map1 = new HashMap<>();
+        map1.put(1, "One");
+        map1.put(2, "Two");
+        map1.put(3, "Three");
+        map1.put(4, "Four");
+
+        // Используем стрим для перебора значений в Map
+        map1.values().stream()
+                .map(String::toUpperCase)
+                .map(x->x+"-")
+                .limit(3)
+                //.collect(Collectors.joining("-"));
+                .forEach(System.out::println);
+
+
 
     }
 
