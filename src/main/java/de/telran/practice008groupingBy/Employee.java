@@ -1,4 +1,4 @@
-package de.telran.practice008;
+package de.telran.practice008groupingBy;
 
 import lombok.*;
 

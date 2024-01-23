@@ -1,5 +1,7 @@
 package de.telran.alg001;
 
+import java.util.Arrays;
+
 public class Main2searchDublicate {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,4,7,8};
@@ -35,8 +37,13 @@ public class Main2searchDublicate {
             sum+=arr[i];
         }
         if (sum==arr[0]*5){
-            System.out.println("Erse 5 elementen sind GLEICH!");
+            System.out.println("Erste 5 elementen sind GLEICH!");
         } else System.out.println("mimo...");
+
+        if (Arrays.stream(arr)
+                .limit(5)
+                .distinct().count() == 1) System.out.println("Erste 5 elementen sind GLEICH!");
+
 
     }
 }

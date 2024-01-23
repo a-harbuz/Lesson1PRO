@@ -1,10 +1,6 @@
-package de.telran.practice008;
+package de.telran.practice008groupingBy;
 
-import com.github.javafaker.Faker;
-
-import java.lang.reflect.Array;
 import java.util.*;
-import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.*;
 
