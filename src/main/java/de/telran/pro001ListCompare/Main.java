@@ -84,6 +84,7 @@ public class Main {
                 new Woman( 2015, "white"), new Woman(2009, "black"));
         //inventory.add(new Woman( 2016, "white"));
         //Collections.sort(inventory, Comparator.comparing(Woman::getColorHaare));
+        //Comparator.comparing()
         inventory.forEach(System.out::println);
 //=============================================================================================
         List<String> strL = new ArrayList<>();

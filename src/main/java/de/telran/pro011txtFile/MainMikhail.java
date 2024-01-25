@@ -14,6 +14,7 @@ public class MainMikhail {
      */
 
     private void readAndWrite(String readFrom, String writeTo) {
+        //ЧТЕНИЕ ПОТОКА СТРОК И ИХ ОБАБОТКА
         try (BufferedReader reader = new BufferedReader(new FileReader(readFrom));
              FileWriter writer = new FileWriter(writeTo)) {
             double average =
@@ -27,5 +28,26 @@ public class MainMikhail {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        //ЗАПИСТЬ ПОТОКА СТРОК В ФАЙЛ
+//        reader.lines()
+//                .forEach(x -> {
+//                    try {
+//                        writer.append(x+'\n');
+//                    } catch (IOException e) {
+//                        throw new RuntimeException(e);
+//                    }
+//                });
+
     }
 }
+
+//ЗАПИСТЬ ПОТОКА СТРОК В ФАЙЛ
+//        reader.lines()
+//                .forEach(x -> {
+//                    try {
+//                        writer.append(x+'\n');
+//                    } catch (IOException e) {
+//                        throw new RuntimeException(e);
+//                    }
+//                });
