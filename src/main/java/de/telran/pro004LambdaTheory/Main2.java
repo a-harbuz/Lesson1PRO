@@ -13,7 +13,7 @@ public class Main2 {
 //        }
 
         int a = list.stream()
-                    .distinct() //etwas machen
+                    .distinct() //удаляет повторяющиеся
                     .filter(el -> el % 2 == 0) //взяли только чеtные
                     .reduce(Integer::sum)
                     .get();

@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         List<String> givenList = Arrays.asList("a", "bb", "ccc", "dd","ee");
 
-        // --- partitioningBy
+        // --- partitioningBy //use predicate
         System.out.println("partitioningBy: ");
         Map<Boolean, List<String>> resultMap1 = givenList.stream()
                 .collect(Collectors.partitioningBy(s -> s.length() > 2));
