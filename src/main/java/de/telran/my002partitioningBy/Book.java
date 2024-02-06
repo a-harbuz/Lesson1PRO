@@ -1,4 +1,4 @@
-package de.telran.tst002partitioningBy;
+package de.telran.my002partitioningBy;
 
 public class Book {
     private String state;

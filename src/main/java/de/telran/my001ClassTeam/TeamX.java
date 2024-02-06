@@ -1,4 +1,4 @@
-package de.telran.tst001ClassTeam;
+package de.telran.my001ClassTeam;
 
 import java.util.ArrayList;
 import java.util.List;

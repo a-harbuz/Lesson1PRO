@@ -1,17 +1,17 @@
-package de.telran.tst001ClassTeam;
+package de.telran.my001ClassTeam;
 
-public class Pupil {
+public class TeenAger {
     private String name;
     private int age;
 
-    public Pupil(String name, int age) {
+    public TeenAger(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
     @Override
     public String toString() {
-        return "Pupil{" +
+        return "TeenAger{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
